@@ -4,12 +4,12 @@
 
 **Applies to:** G20 330i & 330i xDrive (B46D/B48) · **Category:** known issue
 
-> ⚠️ **Thin research.** This doc was written from a real-world dealer quote plus general BMW
-> knowledge. G20-specific forum data, OEM part numbers and independent-shop prices haven't been
-> verified yet. Treat the numbers as a starting point and see "To research" below.
+> ⚠️ **Thin research.** This doc was written from a real-world dealer quote + technician video plus
+> general BMW knowledge. G20-specific forum data, OEM part numbers and independent-shop prices haven't
+> been verified yet. Treat the numbers as a starting point and see "To research" below.
 
-> **TL;DR / ELI5:** Engine mounts are the rubber blocks (on these cars believed to be
-> **fluid-filled / hydraulic** ⚠️ verify) that hold the engine to the body and soak up vibration.
+> **TL;DR / ELI5:** Engine mounts are the rubber blocks (on these cars **fluid-filled / hydraulic**;
+> confirmed in a 2026 BMW technician's inspection video of a 330i xDrive) that hold the engine to the body and soak up vibration.
 > As they age the rubber cracks and the fluid can leak out. Then you feel more vibration at idle, or
 > a clunk when shifting or pulling away. **Before you pay roughly $2,000 at a dealer, make sure the
 > wetness really is mount fluid and not engine oil dripping down from above** (valve cover or oil
@@ -42,6 +42,7 @@ pressure you into skipping the diagnosis step.
 |---|---|
 | BMW position | No interval. Replace on failure. Dealers commonly recommend replacing **both** |
 | Enthusiast view | ⚠️ not yet researched for the G20 |
+| Real-world example (anonymized, 2026, ~60k-mi 330i xDrive) | BMW tech spotted hydraulic fluid around the passenger mount while the starter was out for recall; felt a **rumble at idle at a stop sign** on the test drive; ruled out tires; found the mount cracked and leaking fluid down the engine support arm. Other mount cracked but not yet leaking |
 | Signs it's happening now | Visible cracks in the mount rubber; fluid wetness *on the mount itself*; more vibration at idle (especially in Drive at a stop); a clunk on shifting into Drive/Reverse or on hard launches; the engine visibly rocks when someone blips the throttle |
 
 ## DIY verdict: **Leave it to a shop**
@@ -64,11 +65,12 @@ pressure you into skipping the diagnosis step.
 
 ## To research (for the next update)
 - [ ] OEM part numbers (left/right) for the G20 B46/B48, and whether xDrive differs
-- [ ] Hydraulic vs solid rubber; typical failure mileage on the G20
+- [x] Hydraulic: confirmed (BMW tech video, 2026)
+- [ ] Typical failure mileage on the G20
 - [ ] Independent-shop book time and real-world indie prices (Bimmerpost "engine mount" threads)
 - [ ] FCP Euro / ECS pricing for OEM, Lemförder, Corteco
 
 ## Sources
-- One US BMW dealer multi-point inspection quote, Oct 2026 (anonymized; labor hours, parts, and line totals only) (checked Oct--02--2026)
+- One US BMW dealer multi-point inspection quote + technician video, Oct 2026 (anonymized; labor hours, parts, line totals, and the tech's description only) (checked Oct--02--2026)
 - Labor-rate ranges: https://repairmath.com/labor-rates/ · https://shopcommander.com/blog/labor-rate-guide (checked Oct--02--2026)
 - Mounts catalog, for future pricing: https://www.fcpeuro.com/BMW-parts/mounts/ (rate-limited on Oct--02--2026, not yet read)

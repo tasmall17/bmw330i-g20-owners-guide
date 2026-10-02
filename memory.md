@@ -23,7 +23,7 @@ Two layers:
 
 ## 2. Status
 - Oct--02--2026: **Step 1 base complete** (71 public files; private files verified gitignored in a
-  throwaway repo). Waiting on owner to create the GitHub repo → push → Step 2. Owner's manual PDF
+  throwaway repo). Pushed to **https://github.com/tasmall17/bmw330i-g20-owners-guide** (public). Step 2 started. Owner's manual PDF
   **not yet in `official-docs/`** (see §4).
 - Research gaps to fill next refresh: **engine mount** pricing/failure data (G20 B46/B48), differential
   fluid spec by VIN, CBS reset without a tool, 2022 maintenance booklet, newer SIB 01 03 24 revision.
