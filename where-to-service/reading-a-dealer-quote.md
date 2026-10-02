@@ -21,7 +21,7 @@
 | Question | How to check |
 |---|---|
 | **Real?** | Ask for the number: brake pad **mm**, tire tread **32nds**, battery **test printout**, photo/video of the leak or crack |
-| **Due?** | CBS items show in iDrive (Vehicle status → Service requirements). Compare to [`/maintenance/`](../maintenance/README.md) |
+| **Due?** | CBS items show in iDrive (Vehicle status → Service requirements). Compare to [`/maintenance/`](../maintenance/README.md). **⚠️ CBS is only a counter:** if a shop replaced a part earlier but **didn't reset that CBS item**, the car (and the next MPI) will say it's due again. A "due" line with no notes, photos or measurements is usually CBS-only. **Check it against your own invoices** before approving |
 | **Covered?** | Is the part on the **emissions warranty list** (7 yr/70k in 14 states; 8 yr/80k federal)? Under CPO? A known issue with a BMW bulletin (goodwill)? → [`/vehicle/warranty-and-coverage.md`](../vehicle/warranty-and-coverage.md) |
 | **Fair price?** | Divide labor $ by hours to get their rate; compare parts to retail (FCP Euro/ECS); compare totals to [red-flag prices](README.md#red-flag-prices-question-anything-above-these-standard-brakes-2026) |
 | **Urgent?** | Safety (brakes, tires below 3/32", leaks onto exhaust, cracked mounts) vs. "soon" vs. "monitor" |
@@ -51,7 +51,7 @@
 | Oil service (Value Service) + 3-yr prepaid oil plan | plan $249 | Break-even = 3 dealer oil services in 3 yrs; worth it at ~12k+ mi/yr if you'll stay with that dealer |
 | Brake fluid | $248 (1.0 h @ $215 + $33) | Due (time-based). Dealer price within range; indie ~$100–180 |
 | Cabin filter | $245 (0.6 h + $116 part) | Due. **DIY for ~$30–85 in 15 min** |
-| Spark plugs | $302 (0.8 h + 4 × $32.50) | Due at ~60k. Fair-ish for a dealer; indie $195–325; DIY ~$100 |
+| Spark plugs | $302 (0.8 h + 4 × $32.50) | **Flagged by CBS only, but the owner's plugs had already been replaced ~17k miles earlier** (at the same dealer); the CBS counter was never reset. Decline, and ask for a CBS reset. (Had they been due: fair-ish for a dealer; indie $195–325; DIY ~$100) |
 | 4 tires + mount | $1,286 ($256/tire + $260 install) | Tread 4–5/32" = plan soon, not today. Install fee is ~2× typical; compare against [`/tires/`](../tires/README.md) |
 | Alignment | $210 | Reasonable with new tires; indie $120–250 |
 | Both engine mounts | ~$2,000 (6.72 h + 2 × $230) | Real if cracked/leaking. **Confirm it's mount fluid, not engine oil from above** (that would point to valve cover/oil filter housing, possibly under emissions warranty). Get an indie quote → [`/known-issues/engine-mounts.md`](../known-issues/engine-mounts.md) |

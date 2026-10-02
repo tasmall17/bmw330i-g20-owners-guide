@@ -54,6 +54,9 @@ clear misfire code and is a cheap, quick fix, not a cascade failure.
   Work only on a cold engine (aluminum head).
 
 ## Watch out for
+- **"Plugs due" right after you had them done?** CBS wasn't reset at the last plug job. The car keeps
+  counting from the old date/mileage. Show the old invoice and ask for a **CBS reset** (2 minutes), not new plugs.
+  Real example (2026): plugs replaced at ~45k; the same dealer's inspection flagged them "due" again at ~62k.
 - **Preventive coil replacement** sold with plugs: optional on a stock car. Usually an upsell.
 - Plugs are a **maintenance item**, so they're not covered by the emissions warranty even though the
   ignition system is emissions-related. If a coil or misfire leads to **catalytic converter** damage,
