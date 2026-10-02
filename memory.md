@@ -40,6 +40,9 @@ Two layers:
   Public docs may use **anonymized** price points from it (no shop/staff/city/VIN/owner).
 - **Repo is Step 1 (public base) → owner pushes to GitHub → Step 2 (private overlay)** tailored to
   the owner's VIN/area via questions. Don't mix Step 2 content into public files.
+- **Two folders** (Oct--02--2026): public working copy holds zero personal files; the owner's personal
+  clone holds `.memory`/`private/`/`service-records/` with push disabled. (`.file-structure.md` §2a)
+- **Commits use the GitHub no-reply email**, never a personal address. Owner asked; history was rewritten.
 
 ## 4. Problems & Solutions
 - **bmwusa.com blocks scripted downloads** (curl gets a dropped connection / 000; WebFetch 403).
@@ -65,6 +68,10 @@ Two layers:
 - **mdecoder.com build-sheet decoder** returns "Please Wait… 30 seconds" on first hit. Retry
   after ~35 s with a cookie jar and it returns the full option-code list. bimmer.work 404s for
   this VIN format.
+- **Personal email leaked into the first public commits** via global git config. Fixed by setting a
+  repo-local no-reply email, `git rebase -r --root --exec 'git commit --amend --no-edit --reset-author'`,
+  and `push --force-with-lease`. Orphaned old SHAs stay reachable by direct URL until GitHub purges them
+  (support request or delete/recreate repo). **Set the no-reply email before the first commit.**
 - **Emissions warranty finding:** for 2022 330i registered in CA, CO, CT, DE, ME, MD, MA, NJ, NY,
   OR, PA, RI, VT, WA, BMW's own booklet lists valve cover gaskets, timing chain, turbo,
   mechatronic, torque converter, injectors, HPFP, PCV valve, heat management module and more at

@@ -5,9 +5,10 @@
 1. **`.file-structure.md`**: where things go and the doc conventions (date stamp, sections,
    price tiers, public vs private). Non-negotiable.
 2. **`memory.md`**: running project notes: settled decisions and problems already solved.
-3. **`.memory`** *(only exists on the owner's machine; gitignored)*: the owner's own car (VIN
-   decode, build options, mileage, location, open questions). If present, personalize with it.
-   If absent, you're working on the public knowledge base: stay general.
+3. **`.memory`** *(only in the owner's personal clone; gitignored)*: the owner's own car (VIN
+   decode, build options, mileage, location, open questions). If present, you're in the **personal
+   clone**: personalize, and never push (push is disabled). If absent, you're in the **public
+   working copy**: stay general. See `.file-structure.md` §2a.
 4. **`.update-the-repo-info/README.md`**: if the task is "bring this repo up to date."
 
 ## Hard rules
