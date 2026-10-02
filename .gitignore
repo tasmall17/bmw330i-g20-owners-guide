@@ -1,0 +1,13 @@
+# 🔒 PRIVATE, owner-specific data. Never commit. (See .file-structure.md §2)
+.memory
+private/
+service-records/
+
+# Local tool/editor state
+.claude/settings.local.json
+.DS_Store
+*.swp
+
+# Uncomment to keep BMW-copyrighted PDFs out of the public repo (link to them instead).
+# See official-docs/README.md "Copyright note".
+# official-docs/bmw/*.pdf
